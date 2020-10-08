@@ -1,11 +1,9 @@
-#include <string>
-#include "Empregado.hpp"
+#include "Engenheiro.hpp"
+#include <iostream>
+using namespace std;
 
-class Engenheiro : public Empregado {
-
-  public:
-    std::string nome;  
-	int projetos;
-	
-};
-
+Engenheiro ::Engenheiro()
+{
+    this->nome = "";
+    this->projetos = 0;
+}
